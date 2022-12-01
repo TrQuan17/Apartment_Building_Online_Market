@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
 :root {
-    --preimary: #0b74e5;
+    --primary: rgb(59 166 231);
 }
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -18,4 +20,13 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+}
+
+button, input [tabindex] {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
 }
