@@ -18,17 +18,19 @@
 // logo
 .logo {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
-    height: 50px;
+    height: 45px;
     width: 50px;
-    border-radius: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
 }
 
 // title
 .title {
+    margin-left: 5px;
     color: white;
 }
 
@@ -39,6 +41,7 @@
     padding-left: 12px;
     background-color: white;
     border-radius: 90px;
+    box-shadow: 2px 0 5px rgba($color: #000000, $alpha: 0.12);
     display: flex;
     position: relative;
 
