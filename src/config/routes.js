@@ -5,7 +5,9 @@ const routes = {
     order: '/order',
     turnover:'/turnover',
     profile: '/profile',
-    logout: '/logout'
+    logout: '/logout',
+    login: '/login',
+    register: '/register',
 }
 
 export default routes

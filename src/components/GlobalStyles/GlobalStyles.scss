@@ -29,6 +29,9 @@ button, input [tabindex] {
 
 a {
     text-decoration: none;
+    &:active {
+        color: blue;
+    }
 }
 
 h4 {
