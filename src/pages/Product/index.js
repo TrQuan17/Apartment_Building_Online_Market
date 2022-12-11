@@ -1,2 +1,2 @@
-export {default as ShowProduct} from "./ShowProduct";
-export {default as AddProduct} from "./AddProduct";
+export { default as ShowProduct } from "./ShowProduct";
+export { AddProduct, UpdateProduct } from "./ManagerProduct";

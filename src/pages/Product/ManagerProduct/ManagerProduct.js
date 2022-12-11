@@ -1,14 +1,14 @@
 import classNames from "classnames/bind";
-import styles from "./AddProduct.module.scss";
+import styles from "./ManagerProduct.module.scss";
 
 const cx = classNames.bind(styles)
 
-function AddProduct() {
+function ManagerProduct({nameForm}) {
     return (
         <div className={cx('wrapper')}>
-            <h3>Thông tin cơ bản</h3>
+            <h3>{nameForm}</h3>
 
-            <form action="" method="post" className={cx('add-form')}>
+            <form action="" method="post" className={cx('form')}>
                 <div className={cx('item-row')}>
                     <div className={cx('input-label')}>Hình ảnh sản phẩm</div>
                     <input className={cx('input-img')} 
@@ -53,12 +53,12 @@ function AddProduct() {
                         pattern="[0-9]+"/>
                 </div>
                 <div className={cx('item-submit')}>
-                    <input type="submit" className={cx('add-submit')}
-                        name="" value={"Thêm sản phẩm"}/>
+                    <input type="submit" className={cx('submit')}
+                        name="" value={"Lưu thông tin"}/>
                 </div>
             </form>
         </div>
     );
 }
 
-export default AddProduct;
+export default ManagerProduct;

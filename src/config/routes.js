@@ -1,6 +1,7 @@
 const routes = {
     showProduct: '/',
     addProduct: '/product/add',
+    updateProduct: '/product/update/:slug',
     order: '/order',
     turnover:'/turnover',
     profile: '/profile',
