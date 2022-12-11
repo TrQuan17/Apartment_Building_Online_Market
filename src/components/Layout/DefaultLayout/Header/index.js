@@ -37,7 +37,7 @@ function Header() {
                 </Link>
 
                 <div className={cx('title')}>
-                    <h4>Kênh người bán</h4>
+                    <h4>KÊNH NGƯỜI BÁN</h4>
                 </div>
             </div>
 
@@ -53,10 +53,12 @@ function Header() {
 
             <div className={cx('info')}>
                 <FontAwesomeIcon icon={faCircleUser} className={cx('avatar')} />
-                <h4 className={cx('name-shop')}>Trung Quân Shop</h4>
+                <h4 className={cx('name-shop')}>Trung Quân</h4>
                 <Menu
                     menu_items={MENU_ITEMS} >
-                    <button className={cx('btn-more')}><FontAwesomeIcon icon={faList} /></button>
+                    <button className={cx('btn-more')}>
+                        <FontAwesomeIcon icon={faList} />
+                    </button>
                 </Menu>
 
             </div>

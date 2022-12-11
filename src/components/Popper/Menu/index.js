@@ -20,7 +20,7 @@ function Menu({children, menu_items = []}) {
             offset={[20,0]}
             placement="bottom-end"
             render={(attrs) => (
-                <div classNames={cx('content')} tabIndex='-1' {...attrs}>
+                <div classNames={cx('content')} tabIndex={-1} {...attrs}>
                     <PopperWrapper>
                         {showMenuItems()}
                     </PopperWrapper>

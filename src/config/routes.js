@@ -1,7 +1,6 @@
 const routes = {
-    product: '/',
+    showProduct: '/',
     addProduct: '/product/add',
-    editProduct: '/product/edit',
     order: '/order',
     turnover:'/turnover',
     profile: '/profile',
