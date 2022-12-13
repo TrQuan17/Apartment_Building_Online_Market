@@ -1,5 +1,2 @@
-function Order() {
-    return ( <h2>Order page</h2> );
-}
-
-export default Order 
+export { default as ShowOrder } from "./ShowOrder";
+export { default as Turnover } from "./Turnover";

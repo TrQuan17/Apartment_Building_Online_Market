@@ -1,0 +1,40 @@
+.wrapper {
+    width: 100%;
+    .title {
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--gray-primary);
+    }
+}
+.total-order {
+    
+    padding: 20px 0;
+}
+.item-order {
+    width: 100%;
+    border: 1px solid var(--primary);
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.info-user-order {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.icon-user {
+    color: var(--primary);
+    padding-right: 10px;
+}
+
+.table-order {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid var(--primary);
+    th {
+        border-bottom: 1px solid var(--gray-primary);
+    }
+}

@@ -1,6 +1,7 @@
 import classNames from "classnames/bind";
 import styles from "./ShowProduct.module.scss";
 import Button from "src/components/Button";
+
 const cx = classNames.bind(styles)
 
 function RowItem({ id, image, name, category, price, count }) {
@@ -15,11 +16,11 @@ function RowItem({ id, image, name, category, price, count }) {
             <td className={cx('func-btn')}>
                 <Button
                     type="update-btn"
-                    link={"\\product\\update\\" + id}
+                    link={"/product/update/" + id}
                     name="Cập nhật" />
                 <Button
                     type="delete-btn"
-                    link={"\\product\\delete\\" + id}
+                    link={"/product/delete/" + id}
                     name="Xóa" />
             </td>
         </tr>

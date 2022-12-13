@@ -28,7 +28,7 @@ function Sidebar() {
         <Menu title="Quản lý đơn hàng">
             <MenuItem icon={faChartSimple}
                 title='Thống kê'
-                link={config.routes.order} />
+                link={config.routes.showOrder} />
             <MenuItem icon={faHandHoldingDollar}
                 title='Doanh thu'
                 link={config.routes.turnover} />
