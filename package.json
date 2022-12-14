@@ -27,6 +27,7 @@
     "axios": "^0.21.0",
     "babel-plugin-react-css-modules": "^5.2.6",
     "chart.js": "^3.5.1",
+    "chokidar": "^3.5.3",
     "classnames": "^2.3.1",
     "clsx": "^1.1.1",
     "css-loader": "^5.0.1",
@@ -75,8 +76,8 @@
     "yup": "^0.32.9"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
